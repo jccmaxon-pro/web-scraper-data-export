@@ -94,9 +94,10 @@ python3 -m app.main --url https://books.toscrape.com/ --output-name books_demo
 
 
 Esto generará:
-
+```bash
 output/malaga_filtrado.xlsx
 output/malaga_filtrado.csv
+```
 
 ## Salida
 
