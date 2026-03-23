@@ -60,12 +60,13 @@ scraper-inmuebles/
 ## Instalación
 
 Clona el repositorio y crea un entorno virtual:
-
+```bash
 git clone <TU_REPO_URL>
 cd scraper-inmuebles
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ### Uso
 
