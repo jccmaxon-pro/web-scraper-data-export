@@ -9,8 +9,6 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python3 -m app.main --url https://books.toscrape.com/ --output-name books_demo
-...
-
 
 <h2>Preview</h2>
 
