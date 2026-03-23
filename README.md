@@ -2,13 +2,13 @@
 
 Python CLI tool to extract structured data from HTML files or live URLs, clean fields, remove duplicates, filter results, sort them, and export to Excel and CSV.
 
-## Preview
+<h2>Preview</h2>
 
-![Terminal Preview](assets/preview-terminal.png)
+<img src="assets/preview-terminal.png" alt="Terminal Preview" width="850">
 
-![Excel Preview](assets/preview-excel.png)
+<img src="assets/preview-excel.png" alt="Excel Preview" width="850">
 
-![Books Demo Preview](assets/preview-books.png)
+<img src="assets/preview-books.png" alt="Books Demo Preview" width="850">
 
 ## Features
 
