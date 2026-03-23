@@ -55,6 +55,7 @@ scraper-inmuebles/
 ├── sample_properties_2.html
 ├── requirements.txt
 └── README.md
+```
 
 ## Instalación
 
