@@ -1,29 +1,22 @@
-# Real Estate / Web Data Scraper CLI
-
+Real Estate / Web Data Scraper CLI
 Herramienta en Python para extraer datos estructurados desde archivos HTML o URLs reales, limpiarlos, eliminar duplicados, filtrarlos, ordenarlos y exportarlos a Excel y CSV.
 
-## Características
-
-- Extracción de datos desde uno o varios archivos HTML
-- Extracción desde una URL real
-- Limpieza y normalización de campos numéricos
-- Eliminación de duplicados por enlace o título
-- Filtros por ciudad y precio máximo
-- Ordenación por precio ascendente o descendente
-- Exportación a Excel (`.xlsx`) y CSV (`.csv`)
-- Uso desde línea de comandos (CLI)
-
-## Tecnologías usadas
-
-- Python
-- BeautifulSoup
-- Requests
-- Pandas
-- OpenPyXL
-
-## Estructura del proyecto
-
-```bash
+Características
+Extracción de datos desde uno o varios archivos HTML
+Extracción desde una URL real
+Limpieza y normalización de campos numéricos
+Eliminación de duplicados por enlace o título
+Filtros por ciudad y precio máximo
+Ordenación por precio ascendente o descendente
+Exportación a Excel (.xlsx) y CSV (.csv)
+Uso desde línea de comandos (CLI)
+Tecnologías usadas
+Python
+BeautifulSoup
+Requests
+Pandas
+OpenPyXL
+Estructura del proyecto
 scraper-inmuebles/
 │
 ├── app/
