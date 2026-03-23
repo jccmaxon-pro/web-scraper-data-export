@@ -2,6 +2,14 @@
 
 Python CLI tool to extract structured data from HTML files or live URLs, clean fields, remove duplicates, filter results, sort them, and export to Excel and CSV.
 
+## Quick Start
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 -m app.main --url https://books.toscrape.com/ --output-name books_demo
+
 <h2>Preview</h2>
 
 <img src="assets/preview-terminal.png" alt="Terminal Preview" width="850">
