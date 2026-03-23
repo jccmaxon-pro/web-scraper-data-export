@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ```
 
 ### Uso
-
+```bash
 1. Procesar un archivo HTML local
 python3 -m app.main --input sample_properties.html
 
@@ -87,6 +87,7 @@ python3 -m app.main --input sample_properties.html sample_properties_2.html --de
 
 6. Elegir nombre de salida
 python3 -m app.main --input sample_properties.html sample_properties_2.html --output-name malaga_filtrado
+```
 
 
 Esto generará:
