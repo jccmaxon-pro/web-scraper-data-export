@@ -4,8 +4,6 @@ Python CLI tool to extract structured data from HTML files or live URLs, clean f
 
 ## Preview
 
-Aquí puedes añadir capturas más adelante, por ejemplo:
-
 ![Terminal Preview](assets/preview-terminal.png)
 
 ![Excel Preview](assets/preview-excel.png)
