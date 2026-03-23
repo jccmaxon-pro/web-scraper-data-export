@@ -87,6 +87,9 @@ python3 -m app.main --input sample_properties.html sample_properties_2.html --de
 
 6. Elegir nombre de salida
 python3 -m app.main --input sample_properties.html sample_properties_2.html --output-name malaga_filtrado
+
+7. Procesar una URL real
+python3 -m app.main --url https://books.toscrape.com/ --output-name books_demo
 ```
 
 
@@ -94,11 +97,6 @@ Esto generará:
 
 output/malaga_filtrado.xlsx
 output/malaga_filtrado.csv
-
-
-7. Procesar una URL real
-python3 -m app.main --url https://books.toscrape.com/ --output-name books_demo
-
 
 ## Salida
 
@@ -109,42 +107,43 @@ CSV (.csv)
 
 # Ejemplo de columnas exportadas:
 
-titulo
-precio_texto
-precio
-ubicacion
-metros_texto
-metros
-disponibilidad
-enlace
+- titulo
+- precio_texto
+- precio
+- ubicacion
+- metros_texto
+- metros
+- disponibilidad
+- enlace
 
 
 ## Funcionalidades implementadas
-Parsing de HTML estructurado
-Adaptación a una web real de prueba
-Soporte para múltiples fuentes
-Deduplicación de registros
-Filtros configurables
-Ordenación
-Exportación profesional
+- Parsing de HTML estructurado
+- Adaptación a una web real de prueba
+- Soporte para múltiples fuentes
+- Deduplicación de registros
+- Filtros configurables
+- Ordenación
+- Exportación profesional
 
 
 ## Casos de uso
 
 Este proyecto puede adaptarse fácilmente para:
 
-scraping inmobiliario
-extracción de productos ecommerce
-comparadores de precios
-directorios de empresas
-lead generation
-automatización de informes
-Mejoras futuras
-Soporte para paginación
-Exportación a JSON
-Soporte para múltiples selectores por web
-Interfaz web simple
-Programación automática de ejecuciones
-Autor
+- scraping inmobiliario
+- extracción de productos ecommerce
+- comparadores de precios
+- directorios de empresas
+- lead generation
+- automatización de informes
+- Mejoras futuras
+- Soporte para paginación
+- Exportación a JSON
+- Soporte para múltiples selectores por web
+- Interfaz web simple
+- Programación automática de ejecuciones
+
+### Autor
 
 Proyecto desarrollado por Juan Carrasco como parte de un portfolio orientado a automatización, scraping y trabajos freelance en Python.
